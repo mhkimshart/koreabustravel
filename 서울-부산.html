@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2페이지</title>
+    <style>
+        /* index.html에 넣었던 <style> 태그 안의 메뉴 관련 CSS도 똑같이 여기에 넣어주셔야 스타일이 유지됩니다! */
+        body { font-family: 'Noto Sans KR', sans-serif; text-align: center; background-color: #1a1a1a; color: #ffffff; margin: 0; padding: 20px; }
+        
+        .navbar { display: flex; justify-content: center; gap: 15px; background-color: #2b2b2b; padding: 15px 0; margin-bottom: 30px; border-radius: 8px; }
+        .nav-item { color: #cccccc; text-decoration: none; font-size: 18px; font-weight: bold; padding: 8px 16px; border-radius: 5px; }
+        .nav-item:hover { background-color: #444444; color: #ffffff; }
+        .nav-item.active { background-color: #007bff; color: #ffffff; }
+    </style>
+</head>
+<body>
+
+    <!-- 1페이지에서 썼던 메뉴 코드를 그대로 복사해서 붙여넣습니다 -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-item">홈 (1페이지)</a>
+        <!-- 현재 보고 있는 페이지이므로 active를 2페이지 버튼으로 옮겨줍니다 -->
+        <a href="page2.html" class="nav-item active">2페이지</a> 
+        <a href="page3.html" class="nav-item">3페이지</a>
+    </nav>
+
+    <div class="container">
+        <h1>2페이지 내용</h1>
+        <!-- 2페이지에 넣을 내용 -->
+    </div>
+
+</body>
+</html>
