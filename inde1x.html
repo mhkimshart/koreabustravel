@@ -1,0 +1,93 @@
+# 시내버스 여행 가이드
+한국의 시내버스 여행을 더욱 대중적으로, 쉽게 만들기 위해 제작한 사이트입니다.<br>야옹야옹
+
+<nav class="navbar">
+    <a href="index.html" class="nav-item active">홈 (1페이지)</a>
+    <a href="서울<->부산.html" class="nav-item">2페이지</a?>
+    <a href="page3.html" class="nav-item">3페이지</a>
+</nav>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버스 이동 노선도</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* [메뉴 스타일] */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #2b2b2b;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        .nav-item {
+            color: #cccccc;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+        .nav-item:hover {
+            background-color: #444444;
+            color: #ffffff;
+        }
+        .nav-item.active {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        /* [본문 스타일] */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .map-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 상단 메뉴 -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-item active">홈 (1페이지)</a>
+        <a href="서울<->부산.html" class="nav-item">2페이지</a>
+        <a href="page3.html" class="nav-item">3페이지</a>
+    </nav>
+
+    <!-- 본문 내용 -->
+    <div class="container">
+        <h1>강변역 - 청산버스터미널 노선 안내</h1>
+        <img src="route.jpg" alt="버스 노선도 지도" class="map-image">
+    </div>
+
+</body>
+</html>
+<style>
+    /* 1. 페이지 전체 글자 크기 키우기 */
+    body {
+        font-family: 'Noto Sans KR', sans-serif;
+        text-align: center;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        margin: 0;
+        padding: 20px;
+        font-size: 20px;
+        line-height: 40px;
